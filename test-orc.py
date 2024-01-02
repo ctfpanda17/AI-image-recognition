@@ -3,7 +3,7 @@ import pytesseract
 import cv2
 import numpy as np
 
-knn = cv2.ml.KNearest_load('opencv/mnist_knn.xml') 
+knn = cv2.ml.KNearest_load('mnist_knn.xml') 
 pytesseract.pytesseract.tesseract_cmd = "C:/Program Files/Tesseract-OCR/tesseract.exe"
 
 userinput = input("src=")

@@ -24,3 +24,10 @@
 #### > `pip install opencv_contrib_python`
 * 開啟 Anaconda，進入 tensorflow 虛擬環境，啟動 Jupyter
 #### ![Alt text](src/image.png)
+
+## 辨識文字
+### 1.執行model/model.py
+#### 可以得到一個mnist_knn.xml，是一個手寫數字模型
+### 2.執行test-orc.py
+#### 輸入要辨識圖片的路徑
+#### 可以得到辨識結果
